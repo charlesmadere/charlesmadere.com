@@ -3,8 +3,8 @@ body
 	background-attachment: fixed;
 	background-image: url("../img/background.png");
 	color: #444444;
-	font-family: Cambria, Georgia, "Times New Roman", serif;
-	margin: 0em 1em;
+	font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+	margin: 0em 0.5em;
 }
 
 
@@ -13,7 +13,7 @@ body
 	background-color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 576px;
+	max-width: 36em;
 }
 
 
@@ -180,14 +180,8 @@ ul#list_loves li span
 }
 
 
-@media (max-width: 980px)
+@media (max-width: 40em)
 {
-	#container
-	{
-		max-width: 88%;
-	}
-
-
 	div#list_profiles, div#list_loves
 	{
 		float: none;
