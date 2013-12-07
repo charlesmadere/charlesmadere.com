@@ -71,40 +71,40 @@ a:hover
 }
 
 
-div#list_profiles
+div.list_profiles
 {
 	float: left;
 	width: 58%;
 }
 
 
-ul#list_profiles
+ul.list_profiles
 {
 	font-size: 1.7em;
 	list-style-type: none;
 }
 
 
-ul#list_profiles li
+ul.list_profiles li
 {
 	line-height: 164%;
 }
 
 
-ul#list_profiles li img
+ul.list_profiles li img
 {
 	height: 16px;
 }
 
 
-div#list_loves
+div.list_loves
 {
 	float: left;
 	width: 42%;
 }
 
 
-ul#list_loves
+ul.list_loves
 {
 	font-size: 1.35em;
 	line-height: 185%;
@@ -112,19 +112,19 @@ ul#list_loves
 }
 
 
-ul#list_loves li
+ul.list_loves li
 {
 	line-height: 185%;
 }
 
 
-ul#list_loves li span
+ul.list_loves li span
 {
 	color: #E40045;
 }
 
 
-#list_clear
+.clear
 {
 	clear: both;
 }
@@ -182,14 +182,14 @@ ul#list_loves li span
 
 @media (max-width: 40em)
 {
-	div#list_profiles, div#list_loves
+	div.list_profiles, div.list_loves
 	{
 		float: none;
 		width: 100%;
 	}
 
 
-	#list_clear
+	.clear
 	{
 		clear: none;
 	}
